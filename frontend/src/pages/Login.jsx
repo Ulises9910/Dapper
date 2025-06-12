@@ -18,7 +18,7 @@ export default function Login() {
       console.error("Error de login:", error);
       toast({
         title: "Error de autenticación",
-        description: "Credenciales incorrectas o problema con el servidor",
+        description: "Credeciales incorrectas o problema con el servidor",
         status: "error",
         duration: 5000,
         isClosable: true,
