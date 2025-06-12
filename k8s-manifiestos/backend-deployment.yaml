@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: registry.digitalocean.com/dapperautobutique/backend:latest
+        image: registry.digitalocean.com/dapper/backend:1.1.0
         ports:
         - containerPort: 8000
         env:

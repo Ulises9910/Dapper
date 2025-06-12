@@ -4,9 +4,10 @@ on:
   push:
     branches:
       - main
+      - actions
 
 env:
-  REGISTRY: registry.digitalocean.com/dapperautobutique
+  REGISTRY: registry.digitalocean.com/dapper
 
 jobs:
   build-and-deploy:

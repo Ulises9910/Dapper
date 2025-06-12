@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: registry.digitalocean.com/dapperautobutique/frontend:latest
+        image: registry.digitalocean.com/dapper/frontend:1.1.0
         ports:
         - containerPort: 80
         env:
