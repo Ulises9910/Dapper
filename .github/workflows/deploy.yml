@@ -3,7 +3,6 @@ name: CI/CD Deploy to DigitalOcean Kubernetes
 on:
   push:
     branches:
-      - main
       - actions
 
 env:
